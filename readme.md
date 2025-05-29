@@ -1,66 +1,67 @@
-# 🧪 Prácticas con Selenium y Python
+# 🧪 Selenium and Python Practices
 
-Este repositorio contiene prácticas desarrolladas con **Selenium y Python**, enfocadas en la automatización de pruebas web, desde conceptos básicos hasta técnicas avanzadas.
+This repository contains practices developed with **Selenium and Python**, focused on web test automation, covering topics from basic concepts to advanced techniques.
 
-## 📚 Contenidos
+## 📚 Contents
 
-1. **Primer Test con Selenium**
-   - Instalación de Selenium y Pytest.
-   - Creación y ejecución de un test básico.
+1. **First Test with Selenium**
+   - Installation of Selenium and Pytest.
+   - Creation and execution of a basic test.
 
 2. **WebElements**
-   - Identificación y manipulación de elementos web.
-   - Uso de localizadores: ID, Name, XPath, CSS Selectors.
+   - Identification and manipulation of web elements.
+   - Use of locators: ID, Name, XPath, CSS Selectors.
 
 3. **Actions**
-   - Interacciones avanzadas: clics, doble clics, arrastrar y soltar.
-   - Manejo de eventos del teclado y mouse.
+   - Advanced interactions: clicks, double clicks, drag and drop.
+   - Handling keyboard and mouse events.
 
-4. **Configuraciones del Navegador**
-   - Personalización de opciones del navegador.
-   - Ejecución en modo headless y manejo de perfiles.
+4. **Browser Configurations**
+   - Customizing browser options.
+   - Running in headless mode and managing profiles.
 
-5. **Patrones de Diseño**
-   - Introducción a patrones aplicados en testing.
-   - Mejores prácticas para estructurar el código de pruebas.
+5. **Design Patterns**
+   - Introduction to testing-related design patterns.
+   - Best practices for structuring test code.
 
 6. **Page Object Model (POM)**
-   - Implementación del patrón POM.
-   - Separación de la lógica de pruebas y la representación de páginas.
+   - Implementation of the POM pattern.
+   - Separation of test logic and page representation.
 
 7. **BDD (Behavior Driven Development)**
-   - Uso de herramientas como Behave.
-   - Escritura de escenarios en lenguaje natural.
+   - Using tools like Behave.
+   - Writing scenarios in natural language.
 
-8. **Reportes con Allure**
-   - Generación de reportes detallados y visuales.
-   - Integración con Pytest para automatizar la creación de reportes.
+8. **Allure Reports**
+   - Generating detailed and visual reports.
+   - Integration with Pytest for automated report generation.
 
-9. **Configuración del `pytest.ini`**
-   - Personalización de la ejecución de pruebas.
-   - Definición de opciones predeterminadas y marcadores.
+9. **`pytest.ini` Configuration**
+   - Customizing test execution.
+   - Defining default options and markers.
 
-## 🛠️ Requisitos del Proyecto
+## 🛠️ Project Requirements
 
-- Python 3.8 o superior
+- Python 3.8 or higher
 - Selenium
 - Pytest
 - Allure
-- Behave *(opcional, para BDD)*
+- Behave *(optional, for BDD)*
 
-Instalación de dependencias:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 
 
-🧪 Ejecución de Pruebas
-Para ejecutar las pruebas con pytest:
+
+🧪  Running Tests
+To run tests with pytest:
 
 ```bash
 pytest
 
-Para generar el reporte con Allure:
+To generate the report with Allure:
 
 ```bash
 pytest --alluredir=reports/allure
